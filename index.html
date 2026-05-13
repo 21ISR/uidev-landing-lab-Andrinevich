@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кофейня «Ароматный уголок»</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <a href="#" class="header__logo">Ароматный уголок</a>
+            <nav class="header__nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#hero" class="nav__link">Главная</a></li>
+                    <li class="nav__item"><a href="#menu" class="nav__link">Меню</a></li>
+                    <li class="nav__item"><a href="#gallery" class="nav__link">Галерея</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">О нас</a></li>
+                    <li class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
+                </ul>
+            </nav>
+            <button class="header__button">Забронировать столик</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero__container">
+                <h1 class="hero__title">Добро пожаловать в «Ароматный уголок»</h1>
+                <p class="hero__subtitle">Лучший кофе в городе с 2010 года</p>
+                <button class="hero__button">Посмотреть меню</button>
+            </div>
+        </section>
+
+        <section id="menu" class="menu">
+            <div class="menu__container">
+                <h2 class="menu__title">Наше меню</h2>
+                <div class="cards">
+                    <article class="card">
+                        <h3 class="card__title">Эспрессо</h3>
+                        <p class="card__text">Классический итальянский эспрессо с насыщенным вкусом</p>
+                        <span class="card__price">250 руб.</span>
+                    </article>
+                    <article class="card">
+                        <h3 class="card__title">Капучино</h3>
+                        <p class="card__text">Нежный капучино с молочной пенкой</p>
+                        <span class="card__price">320 руб.</span>
+                    </article>
+                    <article class="card">
+                        <h3 class="card__title">Латте</h3>
+                        <p class="card__text">Мягкий латте с карамельным оттенком</p>
+                        <span class="card__price">350 руб.</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <div class="gallery__container">
+                <h2 class="gallery__title">Наша атмосфера</h2>
+                <div class="gallery__grid">
+                    <img src="images/coffee1.jpg" alt="Кофе 1" class="gallery__image">
+                    <img src="images/coffee2.jpg" alt="Кофе 2" class="gallery__image">
+                    <img src="images/coffee3.jpg" alt="Кофе 3" class="gallery__image">
+                    <img src="images/coffee4.jpg" alt="Кофе 4" class="gallery__image">
+                    <img src="images/coffee5.jpg" alt="Кофе 5" class="gallery__image">
+                    <img src="images/coffee6.jpg" alt="Кофе 6" class="gallery__image">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="about__container">
+                <h2 class="about__title">О нашей кофейне</h2>
+                <p class="about__text">Мы открылись в 2010 году с целью подарить гостям настоящий кофейный опыт. Используем только свежеобжаренные зёрна из Эфиопии и Колумбии.</p>
+            </div>
+        </section>
+
+        <section id="contacts" class="contacts">
+            <div class="contacts__container">
+                <h2 class="contacts__title">Контакты</h2>
+                <form class="contacts__form">
+                    <input type="text" placeholder="Ваше имя" class="form__input">
+                    <input type="email" placeholder="Email" class="form__input">
+                    <textarea placeholder="Сообщение" class="form__textarea"></textarea>
+                    <button type="submit" class="form__button">Отправить</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <p class="footer__copyright">&copy; 2026 Кофейня «Ароматный уголок». Все права защищены.</p>
+            <div class="footer__social">
+                <a href="#" class="footer__link">VK</a>
+                <a href="#" class="footer__link">Telegram</a>
+                <a href="#" class="footer__link">Instagram</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
